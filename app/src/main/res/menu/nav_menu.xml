@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+<group
+    android:checkableBehavior="single">
+    <item
+        android:id="@+id/customer_home"
+        android:icon="@drawable/profile"
+        android:title="Home"/>
+    <item
+        android:id="@+id/customer_viewBoxes"
+        android:icon="@drawable/profile"
+        android:title="View Boxes"/>
+    <item
+        android:id="@+id/customer_customerPlaceOrder"
+        android:icon="@drawable/profile"
+        android:title="Place Order"/>
+    <item
+        android:id="@+id/customer_viewOrders"
+        android:icon="@drawable/profile"
+        android:title="View Orders"/>
+    <item
+        android:id="@+id/customer_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/customer_supportCommunity"
+        android:icon="@drawable/profile"
+        android:title="Support Community"/>
+
+
+</group>
+
+</menu>
